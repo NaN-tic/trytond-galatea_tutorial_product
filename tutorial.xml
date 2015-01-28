@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- This file is part of galatea_tutorial_product module for Tryton.
+The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<tryton>
+    <data>
+        <!-- galatea.tutorial -->
+        <record model="ir.ui.view" id="tutorial_view_form">
+            <field name="model">galatea.tutorial</field>
+            <field name="inherit" ref="galatea_tutorial.tutorial_view_form"/>
+            <field name="name">tutorial_form</field>
+        </record>
+    </data>
+</tryton>
