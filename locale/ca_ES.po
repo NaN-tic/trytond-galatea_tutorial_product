@@ -2,6 +2,10 @@
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
 
+msgctxt "field:galatea.tutorial,esale_products_by_shop:"
+msgid "Products by Shop"
+msgstr "Productes per botiga"
+
 msgctxt "field:galatea.tutorial,products:"
 msgid "Product Templates"
 msgstr "Plantilles de producte"
@@ -18,13 +22,13 @@ msgctxt "field:galatea.tutorial-product.template,id:"
 msgid "ID"
 msgstr "Id"
 
-msgctxt "field:galatea.tutorial-product.template,product:"
-msgid "Product Template"
-msgstr "Plantilla de producte"
-
 msgctxt "field:galatea.tutorial-product.template,rec_name:"
 msgid "Name"
 msgstr "Nom"
+
+msgctxt "field:galatea.tutorial-product.template,template:"
+msgid "Product Template"
+msgstr "Plantilla de producte"
 
 msgctxt "field:galatea.tutorial-product.template,tutorial:"
 msgid "Tutorial"
