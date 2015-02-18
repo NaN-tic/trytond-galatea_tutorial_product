@@ -10,7 +10,7 @@ __metaclass__ = PoolMeta
 
 
 class GalateaTutorialProductTemplate(ModelSQL, ModelView):
-    'Galatea - Tutorial'
+    'Galatea Tutorial - Product Template'
     __name__ = 'galatea.tutorial-product.template'
     _table = 'galatea_tutorial_product_template_rel'
     tutorial = fields.Many2One('galatea.tutorial', 'Tutorial',

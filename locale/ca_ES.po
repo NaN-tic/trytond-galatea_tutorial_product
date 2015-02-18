@@ -43,8 +43,8 @@ msgid "Write User"
 msgstr "Usuari modificació"
 
 msgctxt "model:galatea.tutorial-product.template,name:"
-msgid "Galatea - Tutorial"
-msgstr "Tutorial Galatea"
+msgid "Galatea Tutorial - Product Template"
+msgstr "Galatea Tutorial - Plantilla producte"
 
 msgctxt "view:galatea.tutorial:"
 msgid "Products"
