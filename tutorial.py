@@ -45,6 +45,6 @@ class GalateaTutorial:
             return templates
 
         for template in self.products:
-            if shop in template.esale_saleshops:
+            if shop in template.shops:
                 templates.append(template.id)
         return templates
