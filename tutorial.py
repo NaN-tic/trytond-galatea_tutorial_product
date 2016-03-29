@@ -6,7 +6,6 @@ from trytond.pool import Pool, PoolMeta
 from trytond.transaction import Transaction
 
 __all__ = ['GalateaTutorialProductTemplate', 'GalateaTutorial']
-__metaclass__ = PoolMeta
 
 
 class GalateaTutorialProductTemplate(ModelSQL, ModelView):
@@ -20,6 +19,7 @@ class GalateaTutorialProductTemplate(ModelSQL, ModelView):
 
 
 class GalateaTutorial:
+    __metaclass__ = PoolMeta
     __name__ = 'galatea.tutorial'
     products = fields.Many2Many('galatea.tutorial-product.template',
             'tutorial', 'template', 'Product Templates')
